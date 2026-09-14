@@ -68,8 +68,8 @@ export default function Footer() {
 
           <div className="footer-contact-item">
             <span className="icon" aria-hidden="true">📞</span>
-            <a href="tel:07400727047" id="footer-phone">
-              07400 727047
+            <a href="tel:+447848479074" id="footer-phone">
+              +44 7848 479074
             </a>
           </div>
 

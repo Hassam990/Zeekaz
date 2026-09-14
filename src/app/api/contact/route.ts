@@ -98,7 +98,7 @@ export async function POST(request: Request) {
               <p>Thank you for contacting us! We've received your enquiry and our team will get back to you within <span class="highlight">24–48 hours</span>.</p>
               <div class="contact-box">
                 <p><strong>📧 Email:</strong> info@zeekazwebdesign.co.uk</p>
-                <p><strong>📞 Phone:</strong> 07400 727047</p>
+                <p><strong>📞 Phone:</strong> +44 7848 479074</p>
                 <p><strong>🌐 Website:</strong> zeekazwebdesign.co.uk</p>
               </div>
               <p>In the meantime, feel free to explore our services on our website.</p>

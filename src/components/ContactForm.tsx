@@ -98,8 +98,8 @@ export default function ContactForm() {
               <div className="contact-detail-icon" aria-hidden="true">📞</div>
               <div className="contact-detail-text">
                 <span>Phone</span>
-                <a href="tel:07400727047" id="contact-phone-link">
-                  07400 727047
+                <a href="tel:+447848479074" id="contact-phone-link">
+                  +44 7848 479074
                 </a>
               </div>
             </div>
