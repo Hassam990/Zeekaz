@@ -9,12 +9,8 @@ const navLinks = [
   { label: 'Contact Us', href: '#contact' },
 ];
 
-const services = [
-  'Website Design & Development',
-  'Logo Design & Branding',
-  'SEO',
-  'Social Media Marketing',
-];
+const companyNumber = 'SC859137';
+const registeredOffice = '1/1 1 Lyndale Place, Glasgow, Scotland, G20 0JA';
 
 export default function Footer() {
   const scrollTo = (href: string) => {
@@ -73,18 +69,12 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="footer-contact-item">
-            <span className="icon" aria-hidden="true">🌐</span>
-            <p>zeekazwebdesign.co.uk</p>
-          </div>
-
           <div className="footer-contact-item" style={{ marginTop: '16px' }}>
-            <span className="icon" aria-hidden="true">⚙️</span>
+            <span className="icon" aria-hidden="true">🏢</span>
             <div>
-              <p style={{ fontSize: '0.82rem', marginBottom: '6px', color: 'var(--color-text-dim)' }}>Our Services</p>
-              {services.map((s) => (
-                <p key={s} style={{ fontSize: '0.8rem', marginBottom: '3px' }}>{s}</p>
-              ))}
+              <p style={{ fontSize: '0.82rem', marginBottom: '6px', color: 'var(--color-text-dim)' }}>Company Details</p>
+              <p style={{ fontSize: '0.8rem', marginBottom: '3px' }}>Company number {companyNumber}</p>
+              <p style={{ fontSize: '0.8rem' }}>{registeredOffice}</p>
             </div>
           </div>
         </div>
